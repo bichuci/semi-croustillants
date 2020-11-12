@@ -1,0 +1,49 @@
+body {background-color: #e2e8f0; color: #1a202c; }
+
+.nav-link {
+    color: #4a5568;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 100%;
+}
+
+.imageprofil img{
+    max-height: 150px;
+}
+
+.tab-content{
+    height: 100%;
+}
+
+
+.menu .card-title {
+    text-align: center;
+}
+
+.menu .card-body {
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin-bottom: 5px;
+}
+
+.activity {
+    margin-right: 15px;
+
+}
+
+@media screen and (min-width:768px){
+    .main {
+        height: 610px;
+    }
+}
